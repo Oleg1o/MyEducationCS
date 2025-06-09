@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\bin\Debug\net8.0\MyEducationCSharp.exe
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\bin\Debug\net8.0\MyEducationCSharp.deps.json
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\bin\Debug\net8.0\MyEducationCSharp.runtimeconfig.json
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\bin\Debug\net8.0\MyEducationCSharp.dll
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\bin\Debug\net8.0\MyEducationCSharp.pdb
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\obj\Debug\net8.0\MyEducationCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\obj\Debug\net8.0\MyEducationCSharp.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\obj\Debug\net8.0\MyEducationCSharp.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\obj\Debug\net8.0\MyEducationCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\obj\Debug\net8.0\MyEducationCSharp.dll
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\obj\Debug\net8.0\refint\MyEducationCSharp.dll
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\obj\Debug\net8.0\MyEducationCSharp.pdb
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\obj\Debug\net8.0\MyEducationCSharp.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\MyEducationCSharp\MyEducationCSharp\obj\Debug\net8.0\ref\MyEducationCSharp.dll
