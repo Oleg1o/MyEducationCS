@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("This program is designed to compare three numbers. The output is always from smaller to larger.");
 Console.WriteLine("Enter first int number: ");
-    var numberOne = Convert.(Console.ReadLine()); 
+    var numberOne = Convert.ToInt32(Console.ReadLine()); 
 Console.WriteLine("Enter second int number: ");
     var numberTwo = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter third int number: ");
@@ -12,7 +12,7 @@ if (numberThree > numberTwo)
     {
         if (numberOne > numberThree)
         {
-            Console.WriteLine("Impossible");// Разобраться что делает Error и выводить понятную ошибку
+            Console.WriteLine("Impossible");
         }
         else
         {
