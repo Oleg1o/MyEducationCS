@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("This program is designed to compare three numbers. The output is always from smaller to larger.");
 Console.WriteLine("Enter first int number: ");
-    var numberOne = Convert.ToInt32(Console.ReadLine()); // То есть вот тут написать var numberOne = Convert.ToInt32(Console.ReadLine()); и так далее
+    var numberOne = Convert.(Console.ReadLine()); 
 Console.WriteLine("Enter second int number: ");
     var numberTwo = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter third int number: ");
@@ -16,18 +16,18 @@ if (numberThree > numberTwo)
         }
         else
         {
-            Console.WriteLine("num3 > num2 > num 1");// Выводить числа а не захардкоженую строку. В WriteLine передать $"num3 = {numberThree} > num2 = {numberTwo} > num1 = {numberOne}", поменять так везде
+            Console.WriteLine($"num3 = {numberThree} > num2 = {numberTwo} > num1 = {numberOne}");
         }
     }
     else if (numberOne > numberTwo)
     {
         if (numberOne < numberThree)
         {
-            Console.WriteLine("num3 > num1 > num2");
+            Console.WriteLine($"num3 = {numberThree} > num1 = {numberOne} > num2 = {numberTwo}");
         }
         else
         {
-            Console.WriteLine("num1 > num3 > num2");
+            Console.WriteLine($"num1 = {numberOne} > num3 = {numberThree} > num2 = {numberTwo}");
         }
     }
 }
@@ -37,11 +37,11 @@ else if (numberThree < numberTwo)
     {
         if (numberOne > numberThree)
         {
-            Console.WriteLine("num2 > num1 > num3");
+            Console.WriteLine($"num2 = {numberTwo} > num1 = {numberOne} > num3 = {numberThree}");
         }
         else
         {
-            Console.WriteLine("num2 > num3 > num1");
+            Console.WriteLine($"num2 = {numberTwo} > num3 = {numberThree} > num1 = {numberOne}");
         }
     }
     else if (numberOne > numberTwo)
@@ -52,7 +52,7 @@ else if (numberThree < numberTwo)
         }
         else
         {
-            Console.WriteLine("num1 > num2 > num3");
+            Console.WriteLine($"num1 = {numberOne} > num2 = {numberTwo} > num3 = {numberThree}");
         }
     }
 }
