@@ -5,16 +5,16 @@ Console.WriteLine("Enter second int number: ");
     var numberTwo = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter third int number: ");
     var numberThree = Convert.ToInt32(Console.ReadLine());
+    bool oneEqualTwo = Convert.ToBoolean(numberOne) == Convert.ToBoolean(numberTwo);
+    bool oneEqualThree  = Convert.ToBoolean(numberOne) == Convert.ToBoolean(numberThree);
+    bool twoEqualThree = Convert.ToBoolean(numberTwo) == Convert.ToBoolean(numberThree);
+    bool allEquals = Convert.ToBoolean(numberOne) == Convert.ToBoolean(numberTwo) == Convert.ToBoolean(numberThree);
 
 if (numberThree > numberTwo)
 {
     if (numberOne < numberTwo)
     {
         if (numberOne > numberThree)
-        {
-            Console.WriteLine("Impossible");
-        }
-        else
         {
             Console.WriteLine($"num3 = {numberThree} > num2 = {numberTwo} > num1 = {numberOne}");
         }
@@ -46,16 +46,50 @@ else if (numberThree < numberTwo)
     }
     else if (numberOne > numberTwo)
     {
-        if (numberOne < numberThree)
-        {
-            Console.WriteLine("Impossible");
-        }
-        else
+        if (numberOne > numberThree)
         {
             Console.WriteLine($"num1 = {numberOne} > num2 = {numberTwo} > num3 = {numberThree}");
         }
     }
 }
+else if (oneEqualTwo)
+{
+    if (numberOne > numberThree)
+    {
+        Console.WriteLine($"num1 = {numberOne} equal num2 = {numberTwo} > num3 = {numberThree}");
+    }
+    else
+    {
+        Console.WriteLine($"num3 = {numberThree} > num1 = {numberOne} equal num2 = {numberTwo}");
+    }
+}
+else if (oneEqualThree)
+{
+    if (numberOne > numberTwo)
+    {
+        Console.WriteLine($"num1 = {numberOne} equal num3 = {numberThree} > num2 = {numberTwo}");
+    }
+    else 
+    {
+        Console.WriteLine($"num2 = {numberTwo} > num1 = {numberOne} equal num3 = {numberThree}");
+    }
+}
+else if (twoEqualThree)
+{
+    if (numberTwo > numberOne)
+    {
+        Console.WriteLine($"num2 = {numberTwo} equal num3 = {numberThree} > num1 = {numberOne}");
+    }
+    else
+    {
+        Console.WriteLine($"num1 = {numberOne} > num2 = {numberTwo} equal num3 = {numberThree}");
+    }
+}
+else if (allEquals)
+{
+    Console.WriteLine($"num1 = {numberOne} equal num2 = {numberTwo} equal num3 = {numberThree}");
+}
+
 
 // Логику сравнения чисел вынести в функцию которая принимает три числа в виде массива
 // Возможно можно упростить логику ифов потому что выглядит страшно много, подумай как
