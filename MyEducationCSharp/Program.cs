@@ -6,49 +6,48 @@ Console.WriteLine("Enter second int number: ");
 Console.WriteLine("Enter third int number: ");
     var numberThree = Convert.ToInt32(Console.ReadLine());
 
-
-if (numberThree > numberTwo)
-{
-    if (numberOne < numberTwo)
+    if (numberThree > numberTwo)
     {
-        if (numberOne > numberThree)
+        if (numberOne < numberTwo)
         {
-            Console.WriteLine($"num3 = {numberThree} > num2 = {numberTwo} > num1 = {numberOne}");
+            if (numberOne > numberThree)
+            {
+                Console.WriteLine($"num3 = {numberThree} > num2 = {numberTwo} > num1 = {numberOne}");
+            }
+        }
+        else if (numberOne > numberTwo)
+        {
+            if (numberOne < numberThree)
+            {
+                Console.WriteLine($"num3 = {numberThree} > num1 = {numberOne} > num2 = {numberTwo}");
+            }
+            else
+            {
+                Console.WriteLine($"num1 = {numberOne} > num3 = {numberThree} > num2 = {numberTwo}");
+            }
         }
     }
-    else if (numberOne > numberTwo)
+    else if (numberThree < numberTwo)
     {
-        if (numberOne < numberThree)
+        if (numberOne < numberTwo)
         {
-            Console.WriteLine($"num3 = {numberThree} > num1 = {numberOne} > num2 = {numberTwo}");
+            if (numberOne > numberThree)
+            {
+                Console.WriteLine($"num2 = {numberTwo} > num1 = {numberOne} > num3 = {numberThree}");
+            }
+            else
+            {
+                Console.WriteLine($"num2 = {numberTwo} > num3 = {numberThree} > num1 = {numberOne}");
+            }
         }
-        else
+        else if (numberOne > numberTwo)
         {
-            Console.WriteLine($"num1 = {numberOne} > num3 = {numberThree} > num2 = {numberTwo}");
+            if (numberOne > numberThree)
+            {
+                Console.WriteLine($"num1 = {numberOne} > num2 = {numberTwo} > num3 = {numberThree}");
+            }
         }
     }
-}
-else if (numberThree < numberTwo)
-{
-    if (numberOne < numberTwo)
-    {
-        if (numberOne > numberThree)
-        {
-            Console.WriteLine($"num2 = {numberTwo} > num1 = {numberOne} > num3 = {numberThree}");
-        }
-        else
-        {
-            Console.WriteLine($"num2 = {numberTwo} > num3 = {numberThree} > num1 = {numberOne}");
-        }
-    }
-    else if (numberOne > numberTwo)
-    {
-        if (numberOne > numberThree)
-        {
-            Console.WriteLine($"num1 = {numberOne} > num2 = {numberTwo} > num3 = {numberThree}");
-        }
-    }
-}
 
 
 
